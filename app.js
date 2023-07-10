@@ -6,6 +6,7 @@ const inputField = document.getElementById('input');
 searchIcon.addEventListener('click', () =>{
     inputField.classList.toggle('input');
     inputField.value = '';
+    
 });
 
 inputField.addEventListener('focus',() =>{

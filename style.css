@@ -17,13 +17,16 @@ position: relative;
 }
 
 #input{
- width: 2.2rem;
- height: 1.5rem;
+ width: 2.3rem;
+ height: 1.6rem;
  border: 2px solid rgba(0, 0, 0, 0.9);
  border-radius: 4px;
  transition: 0.5s;
+ font-size: 0.6rem;
+ padding-left: 100px;
  font-family: sans-serif;
  color: rgb(34, 34, 34);
+ z-index: -1;
 }
 #input:focus-visible{
  /* border: none; */
@@ -31,11 +34,14 @@ position: relative;
 }
 #search-icon{
  position: absolute;
- right: 9px;
- top: 4px;
+ right: 2px;
+ top: 9%;
  transition: 0.5s;
+ /* background-color: rgb(251, 251, 251); */
+ padding: 2px 8px;
 }
 
 #input.input{
  width: 15rem;
+ padding-left: 5px;
 }
