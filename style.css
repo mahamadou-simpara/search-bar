@@ -25,7 +25,7 @@ position: relative;
  font-size: 0.6rem;
  padding-left: 100px;
  font-family: sans-serif;
- color: rgb(34, 34, 34);
+ color: rgb(23, 23, 23);
  z-index: -1;
 }
 #input:focus-visible{
@@ -39,6 +39,8 @@ position: relative;
  transition: 0.5s;
  /* background-color: rgb(251, 251, 251); */
  padding: 2px 8px;
+ font-weight: bold;
+ color: black;
 }
 
 #input.input{
